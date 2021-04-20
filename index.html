@@ -3,12 +3,27 @@
     <head>
         <title>Articolo</title>
         <meta charset="UTF-8">
+        <style>
+            #autore {
+                background-color: red;
+                color: white;
+            }
+            h1{
+                color : green;
+            }
+            #cornice{
+                width: fit-content;
+                border: 5px solid black;
+                margin-left: 50px;
+            }
+            #immagine{
+                margin: 5px;
+            }
+        </style>
     </head>
     <body>
         <h1>Justin Beaver: Ever since I learned HTML, my life has made a complete 180</h1>
-        <br />
-        <p>Posted by: Damian Wielgosik</p>
-        <br />
+        <p id="autore">Posted by: Damian Wielgosik</p>
         <div>
             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
@@ -19,8 +34,9 @@
                 and more recently with desktop publishing software like Aldus PageMaker including 
                 versions of Lorem Ipsum.</p>
         </div>
-        <div border="1">
-            <img src="images/gatto.png">
+        <div id="cornice">
+            <img id="immagine" src="images/gatto.png">
+            <p>Justin Beaver's happy cat</p>
         </div>
         <br />
         <p>Beaver has alredy created some websites and does not intedn to stop there. "I will probably have a song
